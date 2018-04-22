@@ -1,3 +1,7 @@
+.vscode
+build.sh
+run_container.sh
+
 # Logs
 logs
 *.log

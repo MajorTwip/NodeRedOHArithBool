@@ -1,0 +1,4 @@
+.git
+.vscode
+build.sh
+run_container.sh

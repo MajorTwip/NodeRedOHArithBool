@@ -9,7 +9,7 @@ LABEL maintainer="MajorTwip" \
 # Install additional "basic" nodes for openHAB
 RUN npm install node-red-contrib-bigtimer
 RUN npm install node-red-contrib-openhab2
-RUN npm install node-red-contrib-boolean-logic
+RUN npm install node-red-contrib-boolean-logic-ultimate
 RUN npm install node-red-contrib-calc
 
 

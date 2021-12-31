@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag nodered-openhab-bool-calc:latest
+      run: docker build . --file base/Dockerfile --tag nodered-openhab-bool-calc:latest
   
     - name: Publish to Registry
       uses: elgohr/Publish-Docker-Github-Action@master

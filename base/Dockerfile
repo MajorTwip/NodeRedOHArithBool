@@ -1,7 +1,7 @@
 #
 # Builds a custom docker image for node-red and openhab
 #
-FROM nodered/node-red-docker
+FROM nodered/node-red
 
 LABEL maintainer="MajorTwip" \
       author="MajorTwip" 

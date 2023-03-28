@@ -18,7 +18,7 @@ jobs:
       run: docker build . --file base/Dockerfile --tag nodered-openhab-bool-calc:latest
   
     - name: Publish to Registry
-      uses: elgohr/Publish-Docker-Github-Action@master
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         workdir: base
         name: majortwip/nodered-openhab-bool-calc
